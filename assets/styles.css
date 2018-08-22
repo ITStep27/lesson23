@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+  font-size: 14px;
+  background-color: #4d26e6;
+}
+
+.block1 {
+  background-color: #e26796;
+  border-radius: 5px;
+  margin: 52px 278px;
+  width: 440px;
+  height: 646px;
+  box-shadow: 10px 0 30px -2px rgba(77, 38, 230, 0.3);
+  z-index: 1;
+  position: relative;
+}
+
+.block1 img.nike {
+  width: 50px;
+  margin: 18px;
+}
+
+.block1 .text {
+  margin: 0 auto;
+  width: 369px;
+  height: 230px;
+  line-height: 230px;
+  font-size: 321px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  cursor: default;
+}
+
+.block1 img.boot {
+  width: 504px;
+  margin: -135px -122px;
+}
+
+.block1 .plus {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #4d26e6;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.block1 .plus.n1 {
+  position: relative;
+  left: 14px;
+  top: -275px;
+}
+
+.block1 .plus.n2 {
+  position: relative;
+  left: 101px;
+  top: -146px;
+}
+
+.block1 .plus.n3 {
+  position: relative;
+  left: 270px;
+  top: -130px;
+}
+
+.block1 .plus:hover {
+  cursor: pointer;
+}
+
+.block1 .rounds {
+  display: flex;
+  width: 25%;
+  height: 30px;
+  justify-content: space-around;
+  margin: -1px auto;
+}
+
+.block1 .rounds .round {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  position: relative;
+}
+
+.block1 .rounds .round:nth-child(even) {
+  background-color: #fff;
+}
+
+.block1 .rounds .round:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.block2 {
+  z-index: 0;
+  background-color: white;
+  width: 500px;
+  height: 560px;
+  position: relative;
+  top: -656px;
+  left: 712px;
+  border-radius: 5px;
+  padding: 53px 46px;
+}
+
+.block2 h1 {
+  font-size: 3rem;
+}
+
+.block2 ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.block2 ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.block2 ul li:last-of-type {
+  color: gray;
+  font-size: 1rem;
+}
+
+.block2 p {
+  margin: 50px 0 60px 0;
+  color: black;
+}
+
+.block2 .size {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+.block2 .size span {
+  width: 30%;
+  text-transform: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.block2 .size div {
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.block2 .size div div {
+  height: 60px;
+  line-height: 60px;
+  float: left;
+  width: 19%;
+  text-align: center;
+}
+
+.block2 .size div div span {
+  display: inline;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: gray;
+  border-radius: 15px;
+}
+
+.block2 .size div div span:hover {
+  padding: 0 5px;
+  border: 2px solid #e26796;
+  cursor: pointer;
+}
+
+.block2 .size div div span:focus {
+  padding: 0 5px;
+  border: 2px solid #e26796;
+  outline: none;
+}
+
+.block2 .amount {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+.block2 .amount span {
+  width: 25%;
+  text-transform: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.block2 .amount div {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.block2 .amount div div {
+  color: black;
+  font-size: 1.5rem;
+  width: 30px;
+  padding-left: 8px;
+}
+
+.block2 .amount div div.tr-left {
+  height: 20px;
+  border: 10px solid;
+  border-color: transparent #e26796 transparent transparent;
+}
+
+.block2 .amount div div.tr-left:hover {
+  cursor: pointer;
+}
+
+.block2 .amount div div.tr-right {
+  height: 20px;
+  border: 10px solid;
+  border-color: transparent transparent transparent #e26796;
+}
+
+.block2 .amount div div.tr-right:hover {
+  cursor: pointer;
+}
+
+.block2 button {
+  margin: 15px 0;
+  background-color: #e74c3c;
+  box-shadow: 0 10px 30px -2px rgba(231, 76, 60, 0.5);
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  outline: none;
+}
+
+.block2 button:hover {
+  margin: 12px 0;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+/*# sourceMappingURL=styles.css.map */
